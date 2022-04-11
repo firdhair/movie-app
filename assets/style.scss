@@ -1,0 +1,21 @@
+$header1: 5.5rem;
+$header2: 4.2rem;
+$header3: 3.5rem;
+$header4: 2rem;
+$text: 1.5rem;
+$navbar-txt: 2rem;
+$medium: 3rem;
+
+$background: #f3f9fe;
+$black: #070504;
+$dark-brown: rgb(44, 33, 33);
+$gray-text: #2c2c2c;
+
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+@import "global";
+@import "omdb";

@@ -1,0 +1,70 @@
+.container {
+  background: $background;
+  //@include flex(flex-start, flex-start, column);
+  min-height: 90vh;
+}
+
+.search-movie {
+  width: 60%;
+  margin: 5rem auto;
+  //background-color: lightpink;
+  //@include flex(center, center, column);
+  h3 {
+    margin: 1rem 0rem 2rem 0rem;
+    text-align: center;
+    font-family: "Catamaran", sans-serif;
+    color: #404669;
+  }
+  form {
+    @include flex(center, center, row);
+    flex-wrap: wrap;
+  }
+  input {
+    width: 80%;
+    border: none;
+    background-color: white;
+    min-height: 8vh;
+    border-radius: 2rem;
+    padding: 0rem 3rem;
+    box-shadow: rgba(0, 0, 0, 0.09) 0 6px 9px 0;
+    color: $dark-brown;
+  }
+  button {
+    padding: 1rem 3rem;
+    margin: 1rem 0.5rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 2.5rem;
+    background-color: #313b77;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 6px 9px 0;
+    transition: background 0.5s ease-in-out;
+  }
+  button:hover {
+    background-color: #404669;
+  }
+}
+
+.movie-wrapper {
+  //@include flex(center, flex-end, row);
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  // gap: 2;
+  margin-top: 2rem;
+  .kartu {
+    //background-color: lavender;
+    .card-title {
+      text-align: center;
+      margin: 1rem auto;
+    }
+    img {
+      width: 100%;
+      max-width: 30rem;
+      border-radius: 0.8rem;
+    }
+    p {
+      text-align: center;
+    }
+  }
+}

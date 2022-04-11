@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #f3f9fe;
+}
+
+h1 {
+  font-size: 5.5rem;
+}
+
+li,
+button,
+label,
+input,
+a,
+p {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 4.2rem;
+}
+
+h3 {
+  font-size: 3.5rem;
+}
+
+h4,
+h5 {
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+  font-size: 5.5rem;
+}
+
+a {
+  color: #2c2c2c;
+  text-decoration: none;
+}
+
+.container {
+  background: #f3f9fe;
+  min-height: 90vh;
+}
+
+.search-movie {
+  width: 60%;
+  margin: 5rem auto;
+}
+
+.search-movie h3 {
+  margin: 1rem 0rem 2rem 0rem;
+  text-align: center;
+  font-family: "Catamaran", sans-serif;
+  color: #404669;
+}
+
+.search-movie form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.search-movie input {
+  width: 80%;
+  border: none;
+  background-color: white;
+  min-height: 8vh;
+  border-radius: 2rem;
+  padding: 0rem 3rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.09) 0 6px 9px 0;
+          box-shadow: rgba(0, 0, 0, 0.09) 0 6px 9px 0;
+  color: #2c2121;
+}
+
+.search-movie button {
+  padding: 1rem 3rem;
+  margin: 1rem 0.5rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 2.5rem;
+  background-color: #313b77;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 6px 9px 0;
+          box-shadow: rgba(0, 0, 0, 0.2) 0 6px 9px 0;
+  -webkit-transition: background 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out;
+}
+
+.search-movie button:hover {
+  background-color: #404669;
+}
+
+.movie-wrapper {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.movie-wrapper .kartu .card-title {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.movie-wrapper .kartu img {
+  width: 100%;
+  max-width: 30rem;
+  border-radius: 0.8rem;
+}
+
+.movie-wrapper .kartu p {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
